@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplication Table Generator</title>
+    <link type="text/css" rel="stylesheet" href="css/a8.css"></link>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/ui-lightness/jquery-ui.css"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/additional-methods.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script src="js/a8.js"></script>
+  </head>
+  <body>
+      <fieldset>
+        <legend id="tableTitle">Please enter the table ranges. Order doesn't matter.</legend>
+        <form id="inputForm" action="" method="GET">
+          <table id="tblForm">
+            <tr>
+                <td>Column Bound 1</td>
+                <td><input type="text" id="xBegin" name="xBegin">
+                <div id="slider1"></div></td>
+            </tr>
+            <tr>
+                <td>Column Bound 2</td>
+                <td><input type="text" id="xEnd" name="xEnd">
+                <div id="slider2"></div></td>
+            </tr>
+            <tr>
+                <td>Row Bound 1</td>
+                <td><input type="text" id="yBegin" name="yBegin">
+                <div id="slider3"></div></td>
+            </tr>
+            <tr>
+                <td>Row Bound 2</td>
+                <td><input type="text" id="yEnd" name="yEnd">
+                <div id="slider4"></div></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" value="Save Table" id="draw">
+                <span id="msg"></span></td>
+            </tr>
+            <tr>
+                <td><label for="remIndexText">Type Tab Index to remove other than 0.<input type="text" id="remIndexText" name="remIndexText"></td>
+                <td><input type="button" value="Remove Tab" id="remIndex"></td>
+            </tr>
+          </table>
+        <div id="tabs">
+          <ul>
+            <li><a href="#placeholder">Current Table</a></li>
+          </ul>
+          <div id="placeholder"></div>
+        </div>
+        </fieldset>
+  </body>
+</html>

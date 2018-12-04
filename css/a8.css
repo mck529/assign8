@@ -1,0 +1,55 @@
+#tblForm {
+  font-family: Tahoma, Geneva, sans-serif;
+  border: 2px solid #839AFF;
+  background-color: #EEEEEE;
+  width: 100px;
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#tblform input {
+  padding-bottom: 10px;
+}
+
+#tblForm td {
+  font-size: 18px;
+  color: #000000;
+  border: 2px solid #1C6EA4;
+  padding: 20px;
+}
+
+#placeholder > table {
+  font-family: Tahoma, Geneva, sans-serif;
+  border: 2px solid #1C6EA4;
+  background-color: #EEEEEE;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+#placeholder > td {
+  border: 1px solid #AAAAAA;
+}
+
+#placeholder > table tbody td {
+  font-size: 18px;
+  color: #000000;
+  border: 2px solid #1C6EA4;
+}
+
+#placeholder > table tr:nth-child(1) {
+  background: #839AFF;
+}
+
+#placeholder > table td:nth-child(1) {
+  background: #839AFF;
+}
+
+#placeholder > table tr:nth-child(even) {
+  background: #D0E4F5;
+}
+
+#placeholder > table td:hover {
+  background: #3973FF;
+  color: #FFFFFF;
+}
